@@ -10,7 +10,7 @@ KOREA ON CUE 인스타 캐러셀 카드·릴스 호스팅용. 저장소(`korea-o
 「호스팅」 절에 있다.
 
 ```
-raw base   https://raw.githubusercontent.com/nakojin/koc-ig-assets/main   (저장소 생성 뒤 확정)
+raw base   https://raw.githubusercontent.com/nakojin/koc-ig-assets/main   (2026-09-05 확인: HTTP 200)
 구조       <슬러그>/card-1.jpg … card-N.jpg   (1080×1350 · 베이스라인 JPEG · 프로그레시브 금지)
            <슬러그>/reel.mp4 · <슬러그>/reel-src/   (릴스가 생기면)
 ```
@@ -24,8 +24,12 @@ raw base   https://raw.githubusercontent.com/nakojin/koc-ig-assets/main   (저�
 
 ## 상태 (2026-09-05)
 
-⚠️ **이 폴더는 아직 클론이 아니다.** README만 있는 일반 폴더다. 발행 스크립트는 `.git`이
-없으면 시작조차 하지 않는다. 공개 저장소 `nakojin/koc-ig-assets`가 만들어지면 **클론으로
-다시 받고 이 폴더는 버린다.**
+✅ 저장소 생성 완료(Owner) · 로컬 클론 전환 완료(팀장) · raw 주소 HTTP 200 확인(과장).
+발행 스크립트의 `.git` 검사를 통과한다.
 
-공개 저장소는 계정·메타 앱과 함께 Owner가 만든다(팀장이 묶어 보고).
+**아직 카드는 없다.** 남은 것은 인스타 계정·메타 앱·토큰이고 셋 다 Owner 화면 몫이다.
+첫 편(`reading-the-street-when-signs-disagree`) 카드 9장은 korea-on-cue 저장소의
+`drafts/<슬러그>/insta/cards.html`에 완성돼 있고, 렌더 스크립트가 이식되면 PNG가 나온다.
+
+🔴 **이 저장소는 공개다.** 푸시하는 순간 카드가 인스타보다 먼저 공개된다 —
+**발행 직전에만 푸시한다.**
